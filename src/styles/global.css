@@ -28,12 +28,17 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 32px;
     margin: 0 auto;
 
     font-family: 'IBM Plex Sans', sans-serif;
 
     background-color: var(--color-allblack);
+}
+#loading{
+    color: var(--color-grey-1);
+    
 }
 .hidden{
     display: none;

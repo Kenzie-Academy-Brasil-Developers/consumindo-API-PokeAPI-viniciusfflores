@@ -17,5 +17,5 @@ async function pokeAPI() {
   
     return pokemonsDaAPI
 }
-console.log(pokeAPI())
+pokeAPI()
 
