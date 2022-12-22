@@ -4,15 +4,16 @@ async function pokeAPI() {
 
  
     const pokemonsDaAPI = await fetch('https://pokeapi.co/api/v2/pokemon')
-      .then(
-        response => response.json()
+      .then(    
+        response =>  response.json()
+          
       )
       .catch(
  
         error => console.log(error)
       )
 
-    loading.classList.add('hidden')
+    setTimeout(()=>{ loading.classList.add('hidden')},1000)
 
   
     return pokemonsDaAPI
